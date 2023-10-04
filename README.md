@@ -1,7 +1,6 @@
 ## Coding-Challenges
 Locate the project folder in visual studio code(Text Editor)
 To clone the repository, run the following codes in your terminal and press enter after each line; 
-
     1. git init 
     2. git clone https://github.com/Wislaw-Web-Programming/coding-challenges.git
     3. git checkout -b <branch name>   <!-- Creating the branch on the coding challenge repository after work has been done. -->
