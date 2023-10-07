@@ -1,0 +1,15 @@
+Create a Blog Web Page:
+
+The complete version of the code is in the "final" folder.
+As much as possible, do not open the "final" folder until you 
+are done with the challenge. you can however make refernce to the final 
+code if you need to.
+
+challenge:
+1. open the asserts folder
+2. open the final.png image (Your result should look exactly as what you would see in the immage)
+3. refactor the codes in the starter/index.html file to look like that in the image
+  NB//  apply font-family: poppins 
+
+
+

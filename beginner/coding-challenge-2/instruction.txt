@@ -1,0 +1,29 @@
+Coding Challenge: Build a List
+
+Challenge:
+Create an ordered (ol) or unordered (ul) list and populate it with list items (li).
+
+Instructions:
+1. Open your code editor and create a new folder for this challenge. Name it "list-challenge."
+
+2. Inside the "list-challenge" folder, create an HTML file named "index.html."
+
+3. In "index.html," set up the basic HTML structure, including the following:
+   - Document type declaration: <!DOCTYPE html>
+   - Opening and closing <html> tags.
+   - Opening and closing <head> tags.
+   - A <title> element with the text "My List Challenge."
+   - Opening and closing <body> tags.
+
+4. Inside the <body> section, add the following elements:
+   - Create either an ordered (ol) or unordered (ul) list.
+
+5. Populate the list with at least three list items (li). You can use any text you like for the list items.
+
+6. Save your "index.html" file.
+
+7. Now, open your "index.html" file in a web browser to see your completed list.
+
+8. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
+
+Feel free to customize the content and wording of the instructions as needed. This .txt file provides clear steps for students to follow when completing the challenge, which builds upon the previous challenge by introducing list elements.
