@@ -48,15 +48,21 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <title>My Simple Web Page</title>
-    </header>
-    <p>This is a simple web page with some content.</p>
-    <img
-      src="../asserts/images/person-front-computer-working-html.jpg"
-      alt="image"
-      width="600px"
-      height="400px"
-    />
+    <!-- Challenge solution: -->
+    <!-- 1. Create a form element in the body of this HTML document. -->
+    <form action="/submit" method="POST">
+      <!-- 2. Inside the form, create input fields for name, email, and message. -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <!-- 3. Add a submit button for the form. -->
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
