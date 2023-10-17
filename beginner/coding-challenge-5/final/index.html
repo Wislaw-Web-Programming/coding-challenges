@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Coding Challenge 5 | Final</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&family=Expletus+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:wght@200;300;400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&family=Sansita+Swashed:wght@500;600&family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,600;1,300;1,500&family=Ubuntu+Condensed&family=Ubuntu:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="/wislaw.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/globals.css" />
     <style>
       body {
-        font-family: "poppins", sans-serif;
+        font-family: "Poppins", sans-serif;
         text-align: center;
         margin: 2px auto;
+        background-color: #f0f0f0;
+        color: #333;
       }
 
       .bb_container {
         background-color: rgba(0, 0, 0, 0.158);
         margin: 25px auto;
         padding: 13px 30px;
-        width: 550px;
+        max-width: 800px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
       }
 
       .bb_item {
@@ -29,35 +35,71 @@
         margin: 25px auto;
       }
 
-      table {
-        width: 615px;
+      /* Additional Styles */
+      h1 {
+        color: #007bff;
       }
-      table,
-      th,
-      td {
-        border: 2px solid rgba(4, 0, 255, 0.205);
-        border-collapse: collapse;
-        padding: 10px;
-        margin: auto;
+
+      p {
+        font-size: 18px;
       }
-      tbody tr:nth-child(even) {
-        background-color: rgba(4, 0, 255, 0.205);
+
+      .content-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .button:hover {
+        background-color: #0056b3;
       }
     </style>
-
-    <title>Document</title>
   </head>
-  <body
-    style="
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      color: #333;
-    "
-  >
-    <h1 style="color: #007bff">Welcome to My Styled Web Page</h1>
-    <p style="font-size: 18px">
-      This is a styled HTML web page example. It has customized font, colors,
-      and background.
-    </p>
+  <body>
+    <div class="content-container">
+      <h1>Welcome to My Styled Web Page</h1>
+      <p>
+        This is a styled HTML web page example. It has customized font, colors,
+        and background.
+      </p>
+
+      <div class="bb_container">
+        <div class="bb_item">
+          <h2>Blog Post Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            vehicula urna vel libero aliquet, ac fringilla tortor mattis.
+            Vestibulum id cursus sapien. Sed sed tortor sed tortor consectetur
+            tempus. Praesent sit amet viverra lorem. Nullam gravida, arcu eget
+            dapibus tristique, nisl lectus euismod velit, ac mattis tortor lorem
+            in lorem.
+          </p>
+        </div>
+
+        <div class="bb_item">
+          <h2>Another Blog Post Title</h2>
+          <p>
+            Phasellus viverra metus at facilisis. Nulla facilisi. Maecenas
+            tincidunt turpis non justo ultricies, et vulputate risus sodales.
+            Fusce quis tortor nec odio sollicitudin sollicitudin. Vivamus eu
+            arcu nec velit cursus ultrices.
+          </p>
+        </div>
+      </div>
+
+      <button class="button">Read More</button>
+    </div>
   </body>
 </html>

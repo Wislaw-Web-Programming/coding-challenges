@@ -12,19 +12,14 @@ Instructions:
    - Document type declaration: <!DOCTYPE html>
    - Opening and closing <html> tags.
    - Opening and closing <head> tags.
-   - A <title> element with the text "Navigation Bar Challenge."
    - Opening and closing <body> tags.
 
 4. Inside the <body> section, create a navigation bar using an unordered list (ul) with list items (li). Each list item should contain a link (a) for navigation.
 
 5. Style the navigation bar using internal CSS to make it horizontal and visually appealing. Use the provided CSS styles as a starting point.
 
-6. Ensure that the navigation bar is responsive and adjusts to different screen sizes.
+6. Save your "index.html" file.
 
-7. Save your "index.html" file.
+7. Now, open your "index.html" file in a web browser to see your styled navigation bar.
 
-8. Now, open your "index.html" file in a web browser to see your styled navigation bar.
-
-9. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
-
-Feel free to customize the content and wording of the instructions as needed. This .txt file provides clear steps for students to follow when completing the challenge with internal styling.
+8. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
