@@ -3,60 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&family=Expletus+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:wght@200;300;400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&family=Sansita+Swashed:wght@500;600&family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,600;1,300;1,500&family=Ubuntu+Condensed&family=Ubuntu:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="/wislaw.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="/styles/globals.css" />
+    <link rel="stylesheet" href="/coding-challenges/styles/globals.css" />
+    <link rel="icon" href="/coding-challenges/wislaw.jpg" type="image/x-icon" />
     <style>
       body {
         font-family: "poppins", sans-serif;
         text-align: center;
-        margin: 2px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
       }
 
-      .bb_container {
-        background-color: rgba(0, 0, 0, 0.158);
-        margin: 25px auto;
-        padding: 13px 30px;
-        width: 550px;
+      /* Apply styles to only the list with the "styled-list" class */
+      .styled-list {
+        list-style-type: none;
       }
-
-      .bb_item {
-        background-color: rgba(0, 0, 0, 0.158);
-        padding: 4px 13px;
-        margin: 25px auto;
-      }
-
-      table {
-        width: 615px;
-      }
-      table,
-      th,
-      td {
-        border: 2px solid rgba(4, 0, 255, 0.205);
-        border-collapse: collapse;
-        padding: 10px;
-        margin: auto;
-      }
-      tbody tr:nth-child(even) {
-        background-color: rgba(4, 0, 255, 0.205);
+      ul,
+      ol {
+        margin: 10px;
       }
     </style>
 
     <title>CODING CHALLENGE 2 | FINAL</title>
   </head>
   <body>
-    <!-- Challenge solution: -->
-    <!-- 1. Create an ordered (ol) or unordered (ul) list in the body of this HTML document. -->
+    <!-- Initial plain lists -->
     <ul>
-      <!-- 2. Populate the list with at least three list items (li). -->
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
+      <li>Unstyled Item 1</li>
+      <li>Unstyled Item 2</li>
+      <li>Unstyled Item 3</li>
+    </ul>
+
+    <ol>
+      <li>Unstyled Item 1</li>
+      <li>Unstyled Item 2</li>
+      <li>Unstyled Item 3</li>
+    </ol>
+
+    <!-- Challenge solution: -->
+    <!-- Create a new list with the class "styled-list" and apply list styles to it -->
+    <ul class="styled-list">
+      <li>Styled Item 1</li>
+      <li>Styled Item 2</li>
+      <li>Styled Item 3</li>
     </ul>
   </body>
 </html>

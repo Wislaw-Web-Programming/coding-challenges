@@ -1,29 +1,29 @@
-Coding Challenge: Build a List
+Coding Challenge: Create a Custom-Styled List
 
 Challenge:
-Create an ordered (ol) or unordered (ul) list and populate it with list items (li).
+Design and style a custom list using HTML.
 
 Instructions:
-1. Open your code editor and create a new folder for this challenge. Name it "list-challenge."
+1. Open your code editor and create a new folder named "custom-list-challenge."
 
-2. Inside the "list-challenge" folder, create an HTML file named "index.html."
+2. Inside the "custom-list-challenge" folder, create an HTML file named "index.html."
 
-3. In "index.html," set up the basic HTML structure, including the following:
-   - Document type declaration: <!DOCTYPE html>
-   - Opening and closing <html> tags.
-   - Opening and closing <head> tags.
-   - A <title> element with the text "My List Challenge."
-   - Opening and closing <body> tags.
+3. In "index.html," set up the basic HTML structure with the following components:
+   - Declare the document type with `<!DOCTYPE html>`.
+   - Create an `<html>` element with the `lang` attribute set to "en."
+   - Include a `<head>` section.
+   - Set a descriptive title, such as "Custom-Styled List Challenge," within a `<title>` element.
+   - Add the opening and closing `<body>` tags.
 
-4. Inside the <body> section, add the following elements:
-   - Create either an ordered (ol) or unordered (ul) list.
+4. Inside the `<body>` section, create three different lists:
+   - Start with an unordered list (`<ul>`) containing three list items (`<li>`). These items will form your initial, unstyled list.
+   - Create an ordered list (`<ol`) with three list items (`<li>`). This will be another unstyled list.
+   - Lastly, design a new unordered list (`<ul>`) and assign it the class "styled-list."
 
-5. Populate the list with at least three list items (li). You can use any text you like for the list items.
+5. Populate the "styled-list" with three list items (`<li>`) and provide your own content. This list will be styled differently.
 
-6. Save your "index.html" file.
+6. Apply custom styles to only the "styled-list" by utilizing CSS. These styles should:
+   - Remove list-style markers (bullets or numbers).
+   - Add some spacing between list items.
 
-7. Now, open your "index.html" file in a web browser to see your completed list.
 
-8. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
-
-Feel free to customize the content and wording of the instructions as needed. This .txt file provides clear steps for students to follow when completing the challenge, which builds upon the previous challenge by introducing list elements.

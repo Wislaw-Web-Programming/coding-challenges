@@ -9,26 +9,27 @@ Instructions:
 2. Inside the "contact-form-challenge" folder, create an HTML file named "index.html."
 
 3. In "index.html," set up the basic HTML structure, including the following:
-   - Document type declaration: <!DOCTYPE html>
-   - Opening and closing <html> tags.
-   - Opening and closing <head> tags.
-   - A <title> element with the text "Contact Form Challenge."
-   - Opening and closing <body> tags.
+   - Document type declaration: `<!DOCTYPE html>`
+   - Opening and closing `<html>` tags.
+   - Opening and closing `<head>` tags.
+   - A `<title>` element with the text "Contact Form Challenge."
+   - Opening and closing `<body>` tags.
 
-4. Inside the <body> section, add the following elements:
-   - Create a <form> element with the action attribute set to "/submit" and the method attribute set to "POST."
+4. Inside the `<body>` section, add the following elements:
+   - Create a `<form>` element with the `action` attribute set to "/submit" and the `method` attribute set to "POST."
 
 5. Inside the form, create input fields for:
-   - Name: Use an <input> element with type="text" and a unique id and name attribute.
-   - Email: Use an <input> element with type="email" and a unique id and name attribute.
-   - Message: Use a <textarea> element with a unique id and name attribute.
+   - Name: Use an `<input>` element with `type="text"` and a unique `id` and `name` attribute. Set the `placeholder` attribute to "Name."
 
-6. Add a submit button to the form using a <button> element.
+6. Email: Use an `<input>` element with `type="email"` and a unique `id` and `name` attribute. Set the `placeholder` attribute to "Email."
 
-7. Save your "index.html" file.
+7. Message: Use a `<textarea>` element with a unique `id` and `name` attribute. Set the `placeholder` attribute to "Message."
 
-8. Now, open your "index.html" file in a web browser to see your completed contact form.
+8. Add a submit button to the form using a `<button>` element. Set the `type` attribute to "submit" and the text within the button as "Submit."
 
-9. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
+9. Save your "index.html" file.
 
-Feel free to customize the content and wording of the instructions as needed. This .txt file provides clear steps for students to follow when completing the challenge.
+10. Now, open your "index.html" file in a web browser to see your completed contact form.
+
+11. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
+
