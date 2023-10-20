@@ -9,20 +9,24 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&family=Expletus+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:wght@200;300;400;500&family=Roboto+Condensed:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&family=Sansita+Swashed:wght@500;600&family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,600;1,300;1,500&family=Ubuntu+Condensed&family=Ubuntu:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="/wislaw.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="/styles/globals.css" />
+    <link rel="icon" href="/coding-challenges/wislaw.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="/coding-challenges/styles/globals.css" />
     <style>
       body {
         font-family: "poppins", sans-serif;
         text-align: center;
-        margin: 2px auto;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
       }
 
       .bb_container {
         background-color: rgba(0, 0, 0, 0.158);
-        margin: 25px auto;
         padding: 13px 30px;
         width: 550px;
+        text-align: left;
       }
 
       .bb_item {
@@ -45,26 +49,70 @@
       tbody tr:nth-child(even) {
         background-color: rgba(4, 0, 255, 0.205);
       }
+
+      /* Style input fields to match div width and use placeholders */
+      .bb_item input,
+      .bb_item textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-top: 5px;
+      }
+
+      /* Style submit button */
+      .bb_item button {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        background-color: #0074cc;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
     </style>
 
     <title>CODING CHALLENGE 3 | FINAL</title>
   </head>
   <body>
-    <!-- Challenge solution: -->
-    <!-- 1. Create a form element in the body of this HTML document. -->
-    <form action="/submit" method="POST">
-      <!-- 2. Inside the form, create input fields for name, email, and message. -->
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
+    <div class="bb_container">
+      <h1>Contact me</h1>
+      <form action="/submit" method="POST">
+        <!-- 2. Inside the form, create input fields for name, email, and message. -->
+        <div class="bb_item">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+        </div>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
+        <div class="bb_item">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="4" required></textarea>
+        <div class="bb_item">
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
 
-      <!-- 3. Add a submit button for the form. -->
-      <button type="submit">Submit</button>
-    </form>
+        <!-- 3. Add a submit button for the form. -->
+        <div class="bb_item">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
