@@ -4,32 +4,19 @@ Challenge:
 Design a simple contact form using HTML. Include fields for name, email, message, and a submit button.
 
 Instructions:
-1. Open your code editor and create a new folder for this challenge. Name it "contact-form-challenge."
 
-2. Inside the "contact-form-challenge" folder, create an HTML file named "index.html."
 
-3. In "index.html," set up the basic HTML structure, including the following:
-   - Document type declaration: `<!DOCTYPE html>`
-   - Opening and closing `<html>` tags.
-   - Opening and closing `<head>` tags.
-   - A `<title>` element with the text "Contact Form Challenge."
-   - Opening and closing `<body>` tags.
-
-4. Inside the `<body>` section, add the following elements:
+1. Inside the `<body>` section, add the following elements:
    - Create a `<form>` element with the `action` attribute set to "/submit" and the `method` attribute set to "POST."
 
-5. Inside the form, create input fields for:
+2. Inside the form, create input fields for:
    - Name: Use an `<input>` element with `type="text"` and a unique `id` and `name` attribute. Set the `placeholder` attribute to "Name."
 
-6. Email: Use an `<input>` element with `type="email"` and a unique `id` and `name` attribute. Set the `placeholder` attribute to "Email."
+3. Email: Use an `<input>` element with `type="email"` and a unique `id` and `name` attribute. Set the `placeholder` attribute to "Email."
 
-7. Message: Use a `<textarea>` element with a unique `id` and `name` attribute. Set the `placeholder` attribute to "Message."
+4. Message: Use a `<textarea>` element with a unique `id` and `name` attribute. Set the `placeholder` attribute to "Message."
 
-8. Add a submit button to the form using a `<button>` element. Set the `type` attribute to "submit" and the text within the button as "Submit."
+5. Add a submit button to the form using a `<button>` element. Set the `type` attribute to "submit" and the text within the button as "Submit."
 
-9. Save your "index.html" file.
 
-10. Now, open your "index.html" file in a web browser to see your completed contact form.
-
-11. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
 

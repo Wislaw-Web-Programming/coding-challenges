@@ -4,28 +4,21 @@ Challenge:
 Create a basic HTML web page with a title, heading, paragraph, and an image. Use proper HTML tags for structure.
 
 Instructions:
-1. Open your code editor and create a new folder for this challenge. Name it "simple-web-page."
 
-2. Inside the "simple-web-page" folder, create an HTML file named "index.html."
 
-3. In "index.html," set up the basic HTML structure, including the following:
-   - Document type declaration: <!DOCTYPE html>
-   - Opening and closing <html> tags.
-   - Opening and closing <head> tags.
-   - A <title> element with the text "My Simple Web Page."
-   - Opening and closing <body> tags.
 
-4. Inside the <body> section, add the following elements:
+
+1. Inside the <body> section, add the following elements:
    - A <h1> element with the text "Welcome to My Web Page."
    - A <p> element with a brief description of your web page.
-   - An <img> element for an image. For the source (src) attribute, link to an image located in the "assets" folder of your project. Make sure the image is named "example.jpg."
+   - An <img> element for an image. For the source (src) attribute, link to an image located in the "assets" folder of your project. 
 
-5. Save your "index.html" file.
+3. Save your "index.html" file.
 
-6. Locate an image of your choice and place it in a folder named "assets" within the "simple-web-page" directory.
+4. Locate an image of your choice and place it in a folder named "assets" within the "simple-web-page" directory.
 
-7. Now, open your "index.html" file in a web browser to see your completed web page.
+5. Now, open your "index.html" file in a web browser to see your completed web page.
 
-8. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
+6. Once you're finished, compare your code to the provided "final" solution in the challenge description to ensure everything matches.
 
-Feel free to customize the content and wording of the instructions as needed. This .txt file provides clear steps for students to follow when completing the challenge.
+

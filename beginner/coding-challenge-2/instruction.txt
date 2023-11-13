@@ -4,26 +4,17 @@ Challenge:
 Design and style a custom list using HTML.
 
 Instructions:
-1. Open your code editor and create a new folder named "custom-list-challenge."
 
-2. Inside the "custom-list-challenge" folder, create an HTML file named "index.html."
 
-3. In "index.html," set up the basic HTML structure with the following components:
-   - Declare the document type with `<!DOCTYPE html>`.
-   - Create an `<html>` element with the `lang` attribute set to "en."
-   - Include a `<head>` section.
-   - Set a descriptive title, such as "Custom-Styled List Challenge," within a `<title>` element.
-   - Add the opening and closing `<body>` tags.
 
-4. Inside the `<body>` section, create three different lists:
+1. Inside the `<body>` section, create three different lists:
    - Start with an unordered list (`<ul>`) containing three list items (`<li>`). These items will form your initial, unstyled list.
    - Create an ordered list (`<ol`) with three list items (`<li>`). This will be another unstyled list.
    - Lastly, design a new unordered list (`<ul>`) and assign it the class "styled-list."
 
-5. Populate the "styled-list" with three list items (`<li>`) and provide your own content. This list will be styled differently.
+2. Populate the "styled-list" with three list items (`<li>`) and provide your own content. This list will be styled differently.
 
-6. Apply custom styles to only the "styled-list" by utilizing CSS. These styles should:
+3. Apply custom styles to only the "styled-list" by utilizing CSS. These styles should:
    - Remove list-style markers (bullets or numbers).
-   - Add some spacing between list items.
-
+   
 
